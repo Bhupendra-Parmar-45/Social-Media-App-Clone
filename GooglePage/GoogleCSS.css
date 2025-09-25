@@ -1,0 +1,268 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white
+}
+
+/* header */
+
+/* box-1&2 */
+
+.head{
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.head a{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.head a:hover{
+    text-decoration: underline;
+}
+
+#hp1{
+    margin-right: 20px;
+}
+
+#hp2{
+    margin-right: 10px;
+}
+
+/* box-3 */
+
+#hi1{
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    color: rgb(104, 104, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hi1:hover{
+    border-radius: 50%;
+    background-color: rgb(237, 242, 244);
+}
+
+/* box-4 */
+.appstore{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.appstore:hover{
+    border-radius: 50%;
+    background-color: rgb(237, 242, 244);
+}
+
+#asi{
+    font-size: 20px;
+    color: rgb(104, 104, 109);
+    margin-right: 2px;
+}
+
+/* box-5 */
+
+.userimage{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: brown;
+    background-image: url(images/user_image.png);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+/* Google-logo */
+
+.google-logo{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 92px;
+    width: 272px;
+    margin-top: 45px;
+    background-image: url(images/Google_logo.png);
+    background-size: cover;
+}
+
+/* search-bar */
+
+.search-bar{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.sb-components{
+    height: 44px;
+    width: 561px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px black
+}
+
+.search-logo{
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 104, 109);
+}
+
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.search-voice{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(104, 104, 109);
+}
+
+.search-lens{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(104, 104, 109);
+}
+
+/* webpage-block */
+
+.webpage-block{
+    height: 224px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(230, 236, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1-a{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* block-1 */
+
+.block-1{
+    height: 112px;
+    width: 560px;
+    display: flex;
+}
+
+.block1-b{
+    height: 112px;
+    width: 112px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block1-b:hover{
+    background-color:  rgb(237, 242, 244);
+    border-radius: 5px;
+}
+
+/* block-2 */
+
+.block-2{
+    height: 112px;
+    width: 560px;
+    display: flex;
+}
+
+.block2-b{
+    height: 112px;
+    width: 112px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block2-b:hover{
+    background-color:  rgb(237, 242, 244);
+    border-radius: 5px;
+}
+
+/* footer-block */
+
+.footer-block{
+    height: 132px;
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer-text{
+    height: 32px;
+    width: 165px;
+    display: flex;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.f-1{
+    height: 32px;
+    width: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.f-2{
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text:hover{
+    background-color: rgb(237, 242, 244);
+}
+
+
+/* the game is over */
